@@ -1,0 +1,226 @@
+{
+  "brandWordmark": "sainath",
+  "streakCount": 254,
+  "mode": "locked",
+  "clockMode": "clock",
+  "brightness": 100,
+  "dialMinutes": 15,
+  "activeTileId": "tile-1",
+  "lightThemeId": "porcelain-stone",
+  "darkThemeId": "obsidian-locked",
+  "lightPalette": {
+    "canvas": "#ECEBE7",
+    "heroCard": "#FFFFFF",
+    "tile": "#E2E0DB",
+    "tileAlt": "#D9D7D2",
+    "activeTile": "#45403B",
+    "activeText": "#FFFFFF",
+    "ink": "#38322E",
+    "mutedInk": "#8A847D",
+    "accent": "#F15A29",
+    "dockBg": "#FFFFFF",
+    "trackBg": "#E3E1DC",
+    "chassisColor": "#F4F3EF",
+    "isDark": false
+  },
+  "darkPalette": {
+    "canvas": "#080808",
+    "heroCard": "#161616",
+    "tile": "#161616",
+    "tileAlt": "#1F1F1F",
+    "activeTile": "#FFFFFF",
+    "activeText": "#0C0C0C",
+    "ink": "#FFFFFF",
+    "mutedInk": "#787878",
+    "accent": "#F15A29",
+    "dockBg": "#1B1B1B",
+    "trackBg": "#161616",
+    "chassisColor": "#F4F3EF",
+    "isDark": true
+  },
+  "iconPack": "tactile-color",
+  "iconShape": "circle",
+  "iconSize": "standard",
+  "showDrawerLabels": true,
+  "cornerRadius": 20,
+  "digitStyle": "block",
+  "soundEnabled": true,
+  "ambientSound": "rain",
+  "tiles": [
+    {
+      "id": "tile-1",
+      "primaryText": "15",
+      "secondaryText": "Minutes",
+      "minutesPreset": 15,
+      "tileType": "timer"
+    },
+    {
+      "id": "tile-2",
+      "primaryText": "45",
+      "secondaryText": "Minutes",
+      "minutesPreset": 45,
+      "tileType": "timer"
+    },
+    {
+      "id": "tile-3",
+      "primaryText": "3",
+      "secondaryText": "Hours",
+      "minutesPreset": 180,
+      "tileType": "timer"
+    },
+    {
+      "id": "tile-4",
+      "primaryText": "12:00",
+      "secondaryText": "Custom",
+      "minutesPreset": 720,
+      "tileType": "timer"
+    }
+  ],
+  "dockAppIds": [
+    "chat",
+    "messages",
+    "contacts"
+  ],
+  "primaryActionAppId": "phone",
+  "apps": [
+    {
+      "id": "maps",
+      "name": "Maps",
+      "packageName": "com.google.android.apps.maps",
+      "iconKey": "maps",
+      "category": "Essential",
+      "brandColor": "#34A853"
+    },
+    {
+      "id": "messages",
+      "name": "Messages",
+      "packageName": "com.google.android.apps.messaging",
+      "iconKey": "messages",
+      "category": "Essential",
+      "brandColor": "#2563EB",
+      "notificationCount": 2
+    },
+    {
+      "id": "contacts",
+      "name": "Contacts",
+      "packageName": "com.google.android.contacts",
+      "iconKey": "contacts",
+      "category": "Essential",
+      "brandColor": "#0284C7"
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "packageName": "com.google.android.gm",
+      "iconKey": "mail",
+      "category": "Essential",
+      "brandColor": "#EA4335",
+      "notificationCount": 5
+    },
+    {
+      "id": "phone",
+      "name": "Phone",
+      "packageName": "com.google.android.dialer",
+      "iconKey": "phone",
+      "category": "Essential",
+      "brandColor": "#16A34A"
+    },
+    {
+      "id": "camera",
+      "name": "Camera",
+      "packageName": "com.android.camera2",
+      "iconKey": "camera",
+      "category": "Media",
+      "brandColor": "#475569"
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "packageName": "com.google.android.calendar",
+      "iconKey": "calendar",
+      "category": "Work",
+      "brandColor": "#2563EB"
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "packageName": "com.google.android.keep",
+      "iconKey": "notes",
+      "category": "Work",
+      "brandColor": "#D97706"
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "packageName": "com.spotify.music",
+      "iconKey": "music",
+      "category": "Media",
+      "brandColor": "#1DB954"
+    },
+    {
+      "id": "browser",
+      "name": "Browser",
+      "packageName": "com.android.chrome",
+      "iconKey": "browser",
+      "category": "Utility",
+      "brandColor": "#4285F4"
+    },
+    {
+      "id": "clock",
+      "name": "Clock",
+      "packageName": "com.google.android.deskclock",
+      "iconKey": "clock",
+      "category": "Utility",
+      "brandColor": "#52525B"
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "packageName": "com.google.android.apps.weather",
+      "iconKey": "weather",
+      "category": "Utility",
+      "brandColor": "#0284C7"
+    },
+    {
+      "id": "gallery",
+      "name": "Photos",
+      "packageName": "com.google.android.apps.photos",
+      "iconKey": "gallery",
+      "category": "Media",
+      "brandColor": "#F59E0B"
+    },
+    {
+      "id": "chat",
+      "name": "WhatsApp",
+      "packageName": "com.whatsapp",
+      "iconKey": "chat",
+      "category": "Essential",
+      "brandColor": "#22C55E",
+      "notificationCount": 3
+    },
+    {
+      "id": "calculator",
+      "name": "Calculator",
+      "packageName": "com.google.android.calculator",
+      "iconKey": "calculator",
+      "category": "Utility",
+      "brandColor": "#64748B"
+    },
+    {
+      "id": "files",
+      "name": "Files",
+      "packageName": "com.google.android.apps.nbu.files",
+      "iconKey": "files",
+      "category": "Work",
+      "brandColor": "#0EA5E9"
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "packageName": "com.android.settings",
+      "iconKey": "settings",
+      "category": "Utility",
+      "brandColor": "#44403C"
+    }
+  ]
+}
